@@ -17,7 +17,7 @@ Aiutiamo nonna a preparare la tavola:
                          - i posti diventano: 6
             false
                 -apparecchia * 1
-                
+
                 i posti sono apparecchiati?
 
                 true
@@ -30,3 +30,40 @@ Aiutiamo nonna a preparare la tavola:
                             no - porta il cibo.
                         no - porta le posate.
                     no - porta l'acqua.
+
+
+quello definitivo
+
+    quanti posti ci sono? 5 
+    i posti sono maggiori di 2?
+        si - è apparecchiato?
+            si - i posti sono maggiori di 4?
+                si - è apparecchiato?
+                    si - i posti sono maggiori di 6?
+                        si - è apparecchiato?
+                            si - completato
+                            no - c'è l'acqua?
+                                si - ci sono le posate?
+                                     si - c'è il cibo?
+                                        si - è apparecchiato.
+                                        no - porta il cibo.
+                                    no - porta le posate.
+                                no - porta l'acqua.
+                        no - i posti diventano: 6
+                    no - c'è l'acqua?
+                        si - ci sono le posate?
+                            si - c'è il cibo?
+                                si - è apparecchiato.
+                                no - porta il cibo.
+                            no - porta le posate.
+                        no - porta l'acqua.
+                no - i posti diventano: 6
+            no - c'è l'acqua?
+                si - ci sono le posate?
+                    si - c'è il cibo?
+                        si - è apparecchiato.
+                        no - porta il cibo.
+                    no - porta le posate.
+                no - porta l'acqua.
+        no - i posti diventano: 6
+
