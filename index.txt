@@ -1,0 +1,32 @@
+Aiutiamo nonna a preparare la tavola:
+
+        -Tutti i partecipanti sono presenti?
+            true
+                - i posti da apparecchiare sono maggiori di 2?
+                    true 
+                        - i posti da apparecchiare sono maggiori di 4?
+                        true 
+                            - i posti da apparecchiare sono uguali 6? 
+                            true
+                                 - ci sono i posti per tutti, spegniti.
+                            false
+                                 - i posti diventano: 6
+                        false
+                             - i posti diventano: 6
+                    false
+                         - i posti diventano: 6
+            false
+                -apparecchia * 1
+                
+                i posti sono apparecchiati?
+
+                true
+                     - acqua , posate e cibo sono a tavola
+                false
+                     - c'è l'acqua?
+                    si - ci sono le posate?
+                        si - c'è il cibo?
+                            si - è apparecchiato, spegniti.
+                            no - porta il cibo.
+                        no - porta le posate.
+                    no - porta l'acqua.
